@@ -1,6 +1,3 @@
-# Google Kubernetes Cluster
-
-```
 module "app" {
     source = "../"
     project = "eobyysuintjwhdxt"
@@ -12,5 +9,3 @@ module "app" {
 	node_pool_name = "my-node-pool"
 	preemptible = true
 }
-
-```
